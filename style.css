@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+}
+
+.navbar{
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.navbar ul li{
+    list-style: none;
+    float: left;
+    margin: 35px 10px;
+}
+
+.navbar ul li a{
+    color: black;
+    font-size: 17px;
+}
+
+.logo{
+    margin: 20px 60px;
+    font-size: 35px;
+}
+
+.navbar2{
+    margin: 30px 35px;
+}
+
+.tombol1{
+    width: 100px;
+    height: 30px;
+    border-color: black;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.gambar img{
+    height: 500px;
+    width: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.gambar{
+    display: flex;
+    justify-content: center;
+}
+
+.tombol2{
+    width: 150px;
+    height: 35px;
+    border: 2px solid black;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: black;
+    border-top: none;
+    border-top-right-radius: 0 ;
+    border-top-left-radius: 0;
+    color: white;
+}
+
+.button{
+    text-align: center;
+
+}
